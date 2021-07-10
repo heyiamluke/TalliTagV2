@@ -168,7 +168,7 @@ IF(!{LOGGED_IN}){
             </div>
             <div class="social-login-separator"><span>{LANG_OR}</span></div>
             {:IF}
-            <form id="login-form" method="post" action="{SITE_URL}login?ref={REF_URL}">
+            <form id="login-form-signin" method="post" action="{SITE_URL}login?ref={REF_URL}">
                 <div id="login-status" class="notification error" style="display:none"></div>
                 <div class="input-with-icon-left">
                     <i class="la la-user"></i>
