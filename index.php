@@ -8,10 +8,10 @@ define("APPPATH", ROOTPATH."/php/");
 
 
 // Check if SSL enabled
-//if(!empty($_SERVER['HTTP_X_FORWARDED_PROTO']))
-    //$protocol = $_SERVER["HTTP_X_FORWARDED_PROTO"] == "https" ? "https://" : "http://";
-//else
-    //$protocol = !empty($_SERVER['HTTPS']) && $_SERVER["HTTPS"] != "off" ? "https://" : "http://";
+if(!empty($_SERVER['HTTP_X_FORWARDED_PROTO']))
+    $protocol = $_SERVER["HTTP_X_FORWARDED_PROTO"] == "https" ? "https://" : "http://";
+else
+    $protocol = !empty($_SERVER['HTTPS']) && $_SERVER["HTTPS"] != "off" ? "https://" : "http://";
 
 // Define APPURL
 $site_url = $protocol
