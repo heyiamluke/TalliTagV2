@@ -1,7 +1,7 @@
 <?php
 $config['db']['host'] = 'localhost';
 $config['db']['name'] = 'powevdyb_TT';
-$config['db']['user'] = 'powevdyb';
+$config['db']['user'] = 'powevdyb_TT';
 $config['db']['pass'] = 'lFv9sHOhTUPg';
 $config['db']['pre'] = 'tt_';
 $config['db']['port'] = '';
