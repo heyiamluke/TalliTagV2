@@ -108,7 +108,7 @@
                         <div class="header-widget">
 
                             IF('{USERNAME}'==""){
-                            <a href="#sign-in-dialog" class="popup-with-zoom-anim button ripple-effect">Sign In</a>
+                            <a href="#sign-in-dialog" class="popup-with-zoom-anim button ripple-effect">{LANG_JOIN_NOW}</a>
                             {ELSE}
                             <div class="header-notifications user-menu">
                                 <div class="header-notifications-trigger">
@@ -127,7 +127,7 @@
                             </div>
                             {:IF}
                         </div>
-                        <!--IF({LANG_SEL}){
+                        IF({LANG_SEL}){
                         <div class="header-widget">
                             <div class="btn-group bootstrap-select language-switcher">
                                 <button type="button" class="btn dropdown-toggle btn-default" data-toggle="dropdown"
@@ -147,7 +147,7 @@
                                 </div>
                             </div>
                         </div>
-                        {:IF} -->
+                        {:IF}
                     </div>
                     <!-- Right Side Content / End -->
                 </div>

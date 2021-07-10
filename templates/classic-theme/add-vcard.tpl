@@ -70,7 +70,7 @@
                             <div class="content with-padding padding-bottom-0" id="card-details-box">
                                 <div class="submit-field">
                                     <div class="account-type row template-chooser">
-                                        <!-- {LOOP: VCARD_TEMPLATES}
+                                        {LOOP: VCARD_TEMPLATES}
                                             <div class="col-md-6 col-6 margin-right-0">
                                                 <input type="radio" name="vcard_template" value="{VCARD_TEMPLATES.folder}" id="{VCARD_TEMPLATES.folder}" class="account-type-radio" IF("{VCARD_TEMPLATE}" == "{VCARD_TEMPLATES.folder}"){ checked {:IF}>
                                                 <label for="{VCARD_TEMPLATES.folder}" class="ripple-effect-dark">
@@ -78,15 +78,7 @@
                                                     <strong>{VCARD_TEMPLATES.name}</strong>
                                                 </label>
                                             </div>
-                                        {/LOOP: VCARD_TEMPLATES} -->
-                                        <div class="col-md-6 col-6 margin-right-0">
-                                                <input type="radio" name="vcard_template" value="classic-theme" id="classic-theme" class="account-type-radio" IF("{VCARD_TEMPLATE}" == "classic-theme"){ checked {:IF}>
-                                                <label for="classic-theme" class="ripple-effect-dark">
-                                                    <strong>classic-theme</strong>
-                                                </label>
-                                            </div>
-
-
+                                        {/LOOP: VCARD_TEMPLATES}
                                     </div>
                                 </div>
                                     <div class="d-flex align-items-center submit-field">
@@ -131,12 +123,12 @@
                                                  style="max-width: 50%; height: 90px">
                                         </div>
                                     </div>
-                                    <!-- <div class="submit-field">
+                                    <div class="submit-field">
                                         <h5>{LANG_SLUG}</h5>
                                         <input id="slug" class="with-border" name="slug" type="text" value="{SLUG}">
                                         <div id="slug-availability-status"></div>
                                         <small>{LANG_SLUG_HINT}</small>
-                                    </div> -->
+                                    </div>
                                     <div class="submit-field">
                                         <h5>{LANG_TITLE}</h5>
                                         <input id="title" class="with-border" name="title" type="text" value="{TITLE}">

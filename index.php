@@ -1,4 +1,8 @@
 <?php
+/**
+ * @author Bylancer
+ * @Copyright (c) 2015-21 Bylancer.com
+ */
 
 // Path to root directory of app.
 define("ROOTPATH", dirname(__FILE__));
@@ -45,7 +49,7 @@ $router->map('GET|POST','/contact/?', 'contact.php');
 $router->map('GET|POST','/faq/?', 'faq.php');
 $router->map('GET|POST','/feedback/?', 'feedback.php');
 $router->map('GET|POST','/report/?', 'report.php');
-$router->map('GET|POST','/manage/?', 'add-vcard.php');
+$router->map('GET|POST','/add-vcard/?', 'add-vcard.php');
 $router->map('GET|POST','/qr-builder/?', 'qr-builder.php');
 $router->map('GET|POST','/dashboard/?', 'dashboard.php');
 $router->map('GET|POST','/webhook/[*:i]?/?', 'webhook.php');

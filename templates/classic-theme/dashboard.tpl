@@ -71,17 +71,13 @@
                     </div>
                     <div class="fun-fact-icon"><i class="icon-feather-bar-chart-2"></i></div>
                 </div>
-                
                 <div class="fun-fact" data-fun-fact-color="#efa80f">
-                    <a href="{LINK_MEMBERSHIP}"> 
-                        <div class="fun-fact-text">
-                            <span>{LANG_MEMBERSHIP}</span>
-                            <h4>{MEMBERSHIP_NAME}</h4>
-                        </div>
-                        <div class="fun-fact-icon"><i class="icon-feather-gift"></i></div>
-                    </a>
+                    <div class="fun-fact-text">
+                        <span>{LANG_MEMBERSHIP}</span>
+                        <h4>{MEMBERSHIP_NAME}</h4>
+                    </div>
+                    <div class="fun-fact-icon"><i class="icon-feather-gift"></i></div>
                 </div>
-                
             </div>
 
             <!-- Dashboard Box -->

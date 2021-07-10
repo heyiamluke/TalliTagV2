@@ -71,8 +71,7 @@ if(checkloggedin())
     // Get membership details
     switch ($group_id) {
         case 'free':
-           // $plan = json_decode(get_option('free_membership_plan'), true);
-           $plan = json_decode(get_option('trial_membership_plan'), true);
+            $plan = json_decode(get_option('free_membership_plan'), true);
             $settings = $plan['settings'];
             $field_limit = $settings['field_limit'];
             break;

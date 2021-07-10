@@ -1,15 +1,8 @@
 <?php
-if (
-    
-    // isset($_GET['slug'])) {
-    // $vcard = ORM::for_table($config['db']['pre'] . 'vcards')
-    //         ->where('slug', $_GET['slug'])
-    //         ->find_one();
-
-    isset($_GET['slug'])) {
-        $vcard = ORM::for_table($config['db']['pre'] . 'vcards')
-                 ->where('sluduid', $_GET['slug'])
-                 ->find_one();
+if (isset($_GET['slug'])) {
+    $vcard = ORM::for_table($config['db']['pre'] . 'vcards')
+            ->where('slug', $_GET['slug'])
+            ->find_one();
 
     if (isset($vcard['title'])) {
 
@@ -23,8 +16,7 @@ if (
         // Get membership details
         switch ($group_id) {
             case 'free':
-                //$plan = json_decode(get_option('free_membership_plan'), true);
-                $plan = json_decode(get_option('trial_membership_plan'), true);
+                $plan = json_decode(get_option('free_membership_plan'), true);
                 $settings = $plan['settings'];
                 $limit = $settings['scan_limit'];
                 break;
@@ -78,12 +70,6 @@ if (
                 headerRedirect($config['site_url'] . $vcard['slug']);
             }
         }
-
-        $add_view = ORM::for_table($config['db']['pre'] . 'vcard_view')->create();
-        $add_view->vcard_id = $vcard['id'];
-        $add_view->ip = get_client_ip();
-        $add_view->date = date('Y-m-d H:i:s');
-        $add_view->save();
 
         $vcard_id = $vcard['id'];
         $title = escape_html($vcard['title']);
