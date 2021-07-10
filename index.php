@@ -1,8 +1,5 @@
 <?php
-/**
- * @author Bylancer
- * @Copyright (c) 2015-21 Bylancer.com
- */
+
 
 // Path to root directory of app.
 define("ROOTPATH", dirname(__FILE__));
