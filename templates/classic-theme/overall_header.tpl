@@ -127,27 +127,7 @@
                             </div>
                             {:IF}
                         </div>
-                        IF({LANG_SEL}){
-                        <div class="header-widget">
-                            <div class="btn-group bootstrap-select language-switcher">
-                                <button type="button" class="btn dropdown-toggle btn-default" data-toggle="dropdown"
-                                        title="English">
-                                    <span class="filter-option pull-left" id="selected_lang">EN</span>&nbsp;
-                                    <span class="caret"></span>
-                                </button>
-                                <div class="dropdown-menu scrollable-menu open">
-                                    <ul class="dropdown-menu inner">
-                                        {LOOP: LANGS}
-                                            <li data-lang="{LANGS.file_name}">
-                                                <a role="menuitem" tabindex="-1" rel="alternate"
-                                                   href="{LINK_HOME}/{LANGS.code}">{LANGS.name}</a>
-                                            </li>
-                                        {/LOOP: LANGS}
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        {:IF}
+                        
                     </div>
                     <!-- Right Side Content / End -->
                 </div>

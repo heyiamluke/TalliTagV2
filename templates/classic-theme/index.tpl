@@ -7,8 +7,6 @@
             <p class="sub-text">{LANG_HOME_SUB_HEADING}</p>
             <a href="{TRY_DEMO_LINK}" target="_blank" class="button tDemo-btn">{LANG_TRY_DEMO}</a>
         </div>
-        <img src="{SITE_URL}templates/{TPL_NAME}/images/banner.png"
-             alt="{LANG_HOME_HEADING}" class="hero-media">
     </div>
 </div>
 
