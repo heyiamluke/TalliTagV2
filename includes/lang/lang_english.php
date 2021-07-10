@@ -484,6 +484,6 @@ $lang['DOWNLOAD_QRCODE'] = 'Download QR Code';
 $lang['ADDITIONAL_FIELD_CARD'] = 'Additional fields on card';
 $lang['HIDE_APP_BRANDING'] = 'Hide QuickVCard Branding';
 $lang['PROFILE_URL'] = 'Profile URL';
-$lang['PROVIDED_BY'] = 'Provided by QuickVCard';
+$lang['PROVIDED_BY'] = 'Provided by Talli Tag';
 
 $lang['ADD_TO_CONTACT'] = 'Add to Contact';

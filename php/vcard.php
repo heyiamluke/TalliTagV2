@@ -71,6 +71,14 @@ if (isset($_GET['slug'])) {
             }
         }
 
+        $add_view = ORM::for_table($config['db']['pre'] . 'vcard_view')->create();
+        $add_view->vcard_id = $vcard['id'];
+        $add_view->ip = get_client_ip();
+        $add_view->date = date('Y-m-d H:i:s');
+        $add_view->save();
+
+        headerRedirect($config['site_url'] . $vcard['slug']);
+
         $vcard_id = $vcard['id'];
         $title = escape_html($vcard['title']);
         $sub_title = escape_html($vcard['sub_title']);
