@@ -108,7 +108,7 @@
                         <div class="header-widget">
 
                             IF('{USERNAME}'==""){
-                            <a href="#sign-in-dialog" class="popup-with-zoom-anim button ripple-effect">{LANG_JOIN_NOW}</a>
+                            <a href="#sign-in-dialog" class="popup-with-zoom-anim button ripple-effect">Sign In</a>
                             {ELSE}
                             <div class="header-notifications user-menu">
                                 <div class="header-notifications-trigger">
