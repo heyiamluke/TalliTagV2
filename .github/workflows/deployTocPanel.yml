@@ -19,4 +19,4 @@ jobs:
           protocol: ftp
           username: ${{secrets.FTP_USERNAME}}
           password: ${{secrets.FTP_PASSWORD}}
-          server-dir: /home/powevdyb/public_html/
+          server-dir: public_html/
