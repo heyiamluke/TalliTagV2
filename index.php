@@ -1,6 +1,5 @@
 <?php
 
-
 // Path to root directory of app.
 define("ROOTPATH", dirname(__FILE__));
 
