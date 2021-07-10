@@ -16,6 +16,6 @@ jobs:
         with:
           server: server302.web-hosting.com
           port: 21098
-          protocol: sftp
+          protocol: ftp
           username: ${{secrets.FTP_USERNAME}}
           password: ${{secrets.FTP_PASSWORD}}
