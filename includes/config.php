@@ -8,4 +8,5 @@ $config['db']['port'] = '';
 $config['lang']='english';
 $config['version'] = '1.3';
 $config['installed'] = '1';
+$config['site_url']='https://tallitag.com/'
 ?>
