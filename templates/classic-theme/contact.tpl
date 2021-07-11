@@ -17,7 +17,7 @@
     </div>
 </div>
     <div class="container margin-bottom-50">
-        <div class="map margin-bottom-50" id="singleListingMap" data-latitude="{LATITUDE}" data-longitude="{LONGITUDE}" data-map-icon="fa fa-marker"></div>
+        <!--<div class="map margin-bottom-50" id="singleListingMap" data-latitude="{LATITUDE}" data-longitude="{LONGITUDE}" data-map-icon="fa fa-marker"></div> -->
         <div class="business-info">
             <div class="row">
                 <div class="col-sm-8">
