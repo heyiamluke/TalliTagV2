@@ -77,7 +77,7 @@ if (isset($_GET['slug'])) {
         $add_view->date = date('Y-m-d H:i:s');
         $add_view->save();
 
-        headerRedirect($config['site_url'] . $vcard['slug']);
+       
 
         $vcard_id = $vcard['id'];
         $title = escape_html($vcard['title']);
