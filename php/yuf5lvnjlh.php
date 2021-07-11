@@ -383,7 +383,7 @@ function saveVCard(){
                 $vcards_update->sub_title = validate_input($_POST['sub_title']);
                 $vcards_update->description = validate_input($_POST['description']);
  
-                $vcards_update->sluduid=md5(uniqid(rand(), true));
+                $vcards_update->sluguid=md5(uniqid(rand(), true));
 
                 $vcards_update->details = $details;
                 $vcards_update->created_at = $now;
