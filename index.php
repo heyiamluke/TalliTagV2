@@ -50,6 +50,7 @@ $router->map('GET|POST','/faq/?', 'faq.php');
 $router->map('GET|POST','/feedback/?', 'feedback.php');
 $router->map('GET|POST','/report/?', 'report.php');
 $router->map('GET|POST','/add-vcard/?', 'add-vcard.php');
+$router->map('GET|POST','/manage/?', 'manage_card.php');
 $router->map('GET|POST','/qr-builder/?', 'qr-builder.php');
 $router->map('GET|POST','/dashboard/?', 'dashboard.php');
 $router->map('GET|POST','/webhook/[*:i]?/?', 'webhook.php');
