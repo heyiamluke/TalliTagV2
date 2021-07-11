@@ -72,7 +72,7 @@ if($config['xml_latest'] == 1){
                                                       <loc>http://tallitag.com/login?fstart=1</loc>
                                                         <lastmod>2021-07-11T16:34:41+00:00</lastmod>
                                                           <priority>0.80</priority>
-                                                          </url>'
+                                                          </url>';
 
     echo '</urlset>';
 }
