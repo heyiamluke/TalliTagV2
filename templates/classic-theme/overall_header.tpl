@@ -60,6 +60,16 @@
     <link rel="stylesheet" href="{SITE_URL}templates/{TPL_NAME}/css/rtl.css?ver={VERSION}">
     {:IF}
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QJ12XYX808"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+            gtag('config', 'G-QJ12XYX808');
+    </script>
+
     <!-- ===External Code=== -->
     {EXTERNAL_CODE}
     <!-- ===/External Code=== -->
