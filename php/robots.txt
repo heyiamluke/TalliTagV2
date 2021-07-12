@@ -1,2 +1,2 @@
-Sitemap: https://tallitag.com/sitemap.xml
+Sitemap: https://www.tallitag.com/sitemap.xml
 User-Agent: *
