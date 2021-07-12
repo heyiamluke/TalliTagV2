@@ -56,6 +56,7 @@ $router->map('GET|POST','/dashboard/?', 'dashboard.php');
 $router->map('GET|POST','/webhook/[*:i]?/?', 'webhook.php');
 $router->map('GET|POST','/invoice/[i:id]?/?', 'invoice.php');
 $router->map('GET|POST','/test/?', 'test.php');
+$router->map('GET|POST','/robots.txt', 'robots.txt');
 
 $router->map('GET|POST','/page/[*:id]?/?', 'html.php');
 $router->map('GET|POST','/membership/[a:change_plan]?/?', 'membership.php');
