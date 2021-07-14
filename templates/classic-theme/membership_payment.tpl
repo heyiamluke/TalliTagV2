@@ -447,7 +447,7 @@
                 case 'paytm':
                 case 'payumoney':
                 case 'mollie':
-                case 'stripe':
+                //case 'stripe':
                 case 'trial':
                     $form.submit();
                     break;
@@ -459,9 +459,9 @@
                         payWithCheckout();
                     }
                     break;
-                /*case 'stripe':
+                case 'stripe':
                     payWithStripe();
-                    break;*/
+                    break;
             }
 
             return false;
