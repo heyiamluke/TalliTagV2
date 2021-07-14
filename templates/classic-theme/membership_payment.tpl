@@ -21,7 +21,7 @@
         <div class="col-xl-8 col-lg-8 content-right-offset">
             <form id="subscribeForm" method="POST" novalidate="novalidate">
                 <h3>{LANG_PAYMENT_METHOD}</h3>
-                < class="payment margin-top-30">
+                <div class="payment margin-top-30">
                     IF("{PLAN_ID}"=="trial"){
                     <div class="payment-tab payment-tab-active">
                         <div class="payment-tab-trigger">
