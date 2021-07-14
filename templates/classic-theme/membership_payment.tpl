@@ -131,8 +131,8 @@
                         </div>
                     {:IF}
                         IF("{PAYMENT_TYPES.folder}"=="stripe"){
-                        <div class="payment-tab">
-                            <div class="payment-tab-trigger payment-tab-active">
+                        <div class="payment-tab payment-tab-active">
+                            <div class="payment-tab-trigger">
                                 <input name="payment_method_id" class="payment_method_id" id="creditCart" type="radio"
                                        value="{PAYMENT_TYPES.id}" data-name="stripe">
                                 <label for="creditCart">{LANG_CREDIT_DEBIT_CARD}</label>
