@@ -21,7 +21,7 @@
         <div class="col-xl-8 col-lg-8 content-right-offset">
             <form id="subscribeForm" method="POST" novalidate="novalidate">
                 <h3>{LANG_PAYMENT_METHOD}</h3>
-                <div class="payment margin-top-30">
+                < class="payment margin-top-30">
                     IF("{PLAN_ID}"=="trial"){
                     <div class="payment-tab payment-tab-active">
                         <div class="payment-tab-trigger">
@@ -179,8 +179,17 @@
                                     </div>
                                 </div>
                             </div>
+
+                            <div id="stripePaymentErrors" class="text-danger" style="display:none;">
+                                        <div class="col-12">
+                                            <p class="payment-errors"></p>
+                                        </div>
+                            </div>
+
+
+
                         </div>
-                        </div>
+                        
                     {:IF}
                         IF("{PAYMENT_TYPES.folder}"=="2checkout"){
                         <div class="payment-tab">
