@@ -160,6 +160,26 @@
                                 </div>
                                 {:IF}
                             </div>
+
+                            
+                            <div class="row payment-form-row">
+                                <div class="col-12">
+                                    <div class="card-label form-group">
+                                        <input type="text" class="form-control" name="stripeCardNumber" placeholder="{LANG_CARD_NUMBER}" autocomplete="cc-number" required autofocus/>
+                                    </div>
+                                </div>
+                                <div class="col-7">
+                                    <div class="card-label form-group">
+                                        <input type="tel" class="form-control" name="stripeCardExpiry" placeholder="MM / YYYY" autocomplete="cc-exp" required/>
+                                    </div>
+                                </div>
+                                <div class="col-5 pull-right">
+                                    <div class="card-label form-group">
+                                        <input type="tel" class="form-control" name="stripeCardCVC" placeholder="CVV" autocomplete="cc-csc" required/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         </div>
                     {:IF}
                         IF("{PAYMENT_TYPES.folder}"=="2checkout"){
@@ -447,7 +467,7 @@
                 case 'paytm':
                 case 'payumoney':
                 case 'mollie':
-                case 'stripe':
+                //case 'stripe':
                 case 'trial':
                     $form.submit();
                     break;
@@ -459,9 +479,9 @@
                         payWithCheckout();
                     }
                     break;
-                //case 'stripe':
-                    //payWithStripe();
-                    //break;
+                case 'stripe':
+                    payWithStripe();
+                    break;
             }
 
             return false;
