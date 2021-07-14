@@ -30,7 +30,7 @@ try {
         /* recurring */
         case 'invoice.payment_succeeded':
 
-            $payment_total = in_array($currency, ['MGA', 'BIF', 'CLP', 'PYG', 'DJF', 'RWF', 'GNF', 'UGX', 'JPY', 'VND', 'VUV', 'XAF', 'KMF', 'KRW', 'XOF', 'XPF']) ? $session->amount_paid : $session->amount_paid / 100;
+            $payment_total = in_array($currency, ['GBP','MGA', 'BIF', 'CLP', 'PYG', 'DJF', 'RWF', 'GNF', 'UGX', 'JPY', 'VND', 'VUV', 'XAF', 'KMF', 'KRW', 'XOF', 'XPF']) ? $session->amount_paid : $session->amount_paid / 100;
             $payment_currency = strtoupper($session->currency);
 
             $metadata = $session->lines->data[0]->metadata;
@@ -53,8 +53,8 @@ try {
                 die();
             }
 
-            $payment_total = in_array($currency, ['MGA', 'BIF', 'CLP', 'PYG', 'DJF', 'RWF', 'GNF', 'UGX', 'JPY', 'VND', 'VUV', 'XAF', 'KMF', 'KRW', 'XOF', 'XPF']) ? $session->display_items[0]->amount : $session->display_items[0]->amount / 100;
-            $payment_currency = strtoupper($session->display_items[0]->currency);
+            $payment_total = in_array($currency, ['MGA', 'BIF', 'CLP', 'PYG', 'DJF', 'RWF', 'GNF', 'UGX', 'JPY', 'VND', 'VUV', 'XAF', 'KMF', 'KRW', 'XOF', 'XPF']) ? $session->amount_total : $session->amount_total / 100;
+            $payment_currency = strtoupper($session->currency);
 
             $metadata = $session->metadata;
 
