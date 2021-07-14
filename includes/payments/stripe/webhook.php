@@ -138,9 +138,10 @@ try {
     // Add time to their subscription
     $expires = (time()+$term);
 
+
     if($txn_type == 'subscr_update')
     {
-
+        $pdo = ORM::get_db();
         $query = "UPDATE `".$config['db']['pre']."upgrades` SET 
             `sub_id` = '".validate_input($package_id)."',
             `upgrade_expires` = '".validate_input($expires)."', 
