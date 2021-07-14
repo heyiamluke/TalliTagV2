@@ -162,7 +162,7 @@
                             </div>
 
                             
-                            <div class="row payment-form-row">
+                            <!-- <div class="row payment-form-row">
                                 <div class="col-12">
                                     <div class="card-label form-group">
                                         <input type="text" class="form-control" name="stripeCardNumber" placeholder="{LANG_CARD_NUMBER}" autocomplete="cc-number" required autofocus/>
@@ -184,7 +184,7 @@
                                         <div class="col-12">
                                             <p class="payment-errors"></p>
                                         </div>
-                            </div>
+                            </div> -->
 
 
 
@@ -476,7 +476,7 @@
                 case 'paytm':
                 case 'payumoney':
                 case 'mollie':
-                //case 'stripe':
+                case 'stripe':
                 case 'trial':
                     $form.submit();
                     break;
@@ -488,9 +488,9 @@
                         payWithCheckout();
                     }
                     break;
-                case 'stripe':
-                    payWithStripe();
-                    break;
+                //case 'stripe':
+                    //payWithStripe();
+                   // break;
             }
 
             return false;
