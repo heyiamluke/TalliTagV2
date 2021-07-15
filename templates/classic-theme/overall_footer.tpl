@@ -64,7 +64,7 @@
                             <span class="footer-copyright-text">{COPYRIGHT_TEXT}</span>
                         </div>
                     </div>
-                    <div class="footer-rows-right">
+                    <!-- <div class="footer-rows-right">
                         <div class="footer-row">
                             <ul class="footer-social-links">
                                 IF('{FACEBOOK_LINK}'!=""){
@@ -112,7 +112,7 @@
                             </ul>
                             <div class="clearfix"></div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>

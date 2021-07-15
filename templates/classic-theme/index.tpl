@@ -4,7 +4,7 @@
     <div class="flex-container w-container">
         <div>
             <h1 class="hero-title">{LANG_HOME_HEADING}</h1>
-            <p class="sub-text">{LANG_HOME_SUB_HEADING}</p>
+            <h2 class="sub-text">{LANG_HOME_SUB_HEADING}</h2>
             <a href="{TRY_DEMO_LINK}" target="_blank" class="button tDemo-btn">{LANG_TRY_DEMO}</a>
         </div>
     </div>
