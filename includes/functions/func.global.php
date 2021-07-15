@@ -1018,13 +1018,14 @@ function error($msg, $line='', $file='', $formatted=0)
         {
             $lang['ERROR'] = '';
         }
-
+		http_response_code(404);
         $page = new HtmlTemplate ("templates/" . $config['tpl_name'] . "/error.tpl");
         $page->SetParameter ('OVERALL_HEADER', create_header($lang['ERROR']));
         $page->SetParameter ('MESSAGE', $msg);
         $page->SetParameter ('CONTENT', "");
         $page->SetParameter ('OVERALL_FOOTER', create_footer());
         $page->CreatePageEcho();
+        
     }
     exit;
 }
