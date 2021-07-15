@@ -50,11 +50,11 @@
         :root{{LOOP: COLORS}--theme-color-{COLORS.id}: {COLORS.value};{/LOOP: COLORS}}
     </style>
 
-    <link rel="stylesheet" href="{SITE_URL}includes/assets/css/icons.css">
-    <link href="main.css" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link href="{SITE_URL}includes/assets/css/icons.css" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <link rel="stylesheet" href="{SITE_URL}templates/{TPL_NAME}/css/color-picker.min.css?ver={VERSION}">
-    <link rel="stylesheet" href="{SITE_URL}templates/{TPL_NAME}/css/style.css?ver={VERSION}">
     <link rel="stylesheet" href="{SITE_URL}templates/{TPL_NAME}/css/color.css?ver={VERSION}">
+	<link href="{SITE_URL}templates/{TPL_NAME}/css/style.css?ver={VERSION}" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
+
     <script src="{SITE_URL}templates/{TPL_NAME}/js/jquery.min.js"></script>
 
     IF("{LANGUAGE_DIRECTION}"=="rtl"){
