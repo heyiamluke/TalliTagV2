@@ -117,6 +117,7 @@ if($match) {
     require APPPATH.$match['target'];
 }
 else {
-	
+	header($_SERVER["SERVER_PROTOCOL"]." 404 Not Found", true, 404);
+    
    require APPPATH.'404.php';
 }
