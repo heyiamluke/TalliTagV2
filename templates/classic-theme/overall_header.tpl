@@ -49,28 +49,22 @@
     <style>
         :root{{LOOP: COLORS}--theme-color-{COLORS.id}: {COLORS.value};{/LOOP: COLORS}}
     </style>
-
+    <link rel="stylesheet" href="{SITE_URL}includes/assets/css/icons.css">
     <link rel="stylesheet" href="{SITE_URL}templates/{TPL_NAME}/css/color-picker.min.css?ver={VERSION}">
-    <link rel="stylesheet" href="{SITE_URL}templates/{TPL_NAME}/css/color.css?ver={VERSION}">
-	<link rel="stylesheet" href="{SITE_URL}includes/assets/css/icons.css">
     <link rel="stylesheet" href="{SITE_URL}templates/{TPL_NAME}/css/style.css?ver={VERSION}">
-
-    <script src="{SITE_URL}templates/{TPL_NAME}/js/jquery.min.js" ></script>
-
+    <link rel="stylesheet" href="{SITE_URL}templates/{TPL_NAME}/css/color.css?ver={VERSION}">
+    <script src="{SITE_URL}templates/{TPL_NAME}/js/jquery.min.js"></script>
     IF("{LANGUAGE_DIRECTION}"=="rtl"){
     <link rel="stylesheet" href="{SITE_URL}templates/{TPL_NAME}/css/rtl.css?ver={VERSION}">
     {:IF}
-
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-QJ12XYX808"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-
             gtag('config', 'G-QJ12XYX808');
     </script>
-
     <!-- ===External Code=== -->
     {EXTERNAL_CODE}
     <!-- ===/External Code=== -->
@@ -117,7 +111,6 @@
                     <div class="right-side">
                         <!-- User Menu -->
                         <div class="header-widget">
-
                             IF('{USERNAME}'==""){
                             <a href="#sign-in-dialog" class="popup-with-zoom-anim button ripple-effect">{LANG_JOIN_NOW}</a>
                             {ELSE}
