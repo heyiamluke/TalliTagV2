@@ -226,8 +226,8 @@ IF(!{LOGGED_IN}){
 <script src="{SITE_URL}templates/{TPL_NAME}/js/jquery.lazyload.min.js"></script>
 <script src="{SITE_URL}templates/{TPL_NAME}/js/tippy.all.min.js"></script>
 <script src="{SITE_URL}templates/{TPL_NAME}/js/simplebar.min.js"></script>
-<!--<script src="{SITE_URL}templates/{TPL_NAME}/js/bootstrap-slider.min.js"></script>
-<script src="{SITE_URL}templates/{TPL_NAME}/js/bootstrap-select.min.js"></script>-->
+<script src="{SITE_URL}templates/{TPL_NAME}/js/bootstrap-slider.min.js"></script>
+<script src="{SITE_URL}templates/{TPL_NAME}/js/bootstrap-select.min.js"></script>
 <script src="{SITE_URL}templates/{TPL_NAME}/js/snackbar.js"></script>
 <script src="{SITE_URL}templates/{TPL_NAME}/js/counterup.min.js"></script>
 <script src="{SITE_URL}templates/{TPL_NAME}/js/magnific-popup.min.js"></script>
