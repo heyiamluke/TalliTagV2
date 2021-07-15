@@ -55,7 +55,7 @@
 	<link rel="stylesheet" href="{SITE_URL}includes/assets/css/icons.css">
     <link rel="stylesheet" href="{SITE_URL}templates/{TPL_NAME}/css/style.css?ver={VERSION}">
 
-    <script src="{SITE_URL}templates/{TPL_NAME}/js/jquery.min.js" defer></script>
+    <script src="{SITE_URL}templates/{TPL_NAME}/js/jquery.min.js" ></script>
 
     IF("{LANGUAGE_DIRECTION}"=="rtl"){
     <link rel="stylesheet" href="{SITE_URL}templates/{TPL_NAME}/css/rtl.css?ver={VERSION}">
