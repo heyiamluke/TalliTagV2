@@ -72,7 +72,7 @@ if(!empty($plan_custom)) {
 $plan = json_decode(get_option('free_membership_plan'), true);
 if($plan['status']){
     if($plan['id'] == $sub_info['id']) {
-        $sub_types[$plan['id']]['Selected'] = 1;
+        $sub_types[$plan['id']]['Selected'] = 0;
     } else {
         $sub_types[$plan['id']]['Selected'] = 0;
     }
