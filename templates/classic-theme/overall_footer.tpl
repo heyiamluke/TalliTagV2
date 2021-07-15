@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-xl-5 col-lg-5 col-md-12">
                     <div class="footer-logo margin-bottom-10">
-                        <img src="{SITE_URL}storage/logo/{SITE_LOGO_FOOTER}" alt="">
+                        <img src="{SITE_URL}storage/logo/{SITE_LOGO_FOOTER}" alt="Tali Tag Logo">
                     </div>
                     <p>{FOOTER_TEXT}</p>
                 </div>
@@ -169,7 +169,7 @@ IF(!{LOGGED_IN}){
             <div class="social-login-separator"><span>{LANG_OR}</span></div>
             {:IF}
             <form id="login-form-signin" method="post" action="{SITE_URL}login?ref={REF_URL}">
-                <div id="login-status" class="notification error" style="display:none"></div>
+                <div id="login-status" class="notification error" ></div>
                 <div class="input-with-icon-left">
                     <i class="la la-user"></i>
                     <input type="text" class="input-text with-border" name="username" id="username"
