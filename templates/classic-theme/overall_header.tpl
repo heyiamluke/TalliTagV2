@@ -55,10 +55,11 @@
     <link rel="stylesheet" href="{SITE_URL}includes/assets/css/icons.css" media="print" onload="this.media='all';this.onload=null;" />
     <noscript><link rel="stylesheet" href="{SITE_URL}includes/assets/css/icons.css" ></noscript>
 
+    <link rel="stylesheet" href="{SITE_URL}templates/{TPL_NAME}/css/style.css?ver={VERSION}" media="print" onload="this.media='all';this.onload=null;" />
+    <noscript><link rel="stylesheet" href="{SITE_URL}templates/{TPL_NAME}/css/style.css?ver={VERSION}" ></noscript>
 
 
     <link rel="stylesheet" href="{SITE_URL}templates/{TPL_NAME}/css/color-picker.min.css?ver={VERSION}">
-    <link rel="stylesheet" href="{SITE_URL}templates/{TPL_NAME}/css/style.css?ver={VERSION}">
     <link rel="stylesheet" href="{SITE_URL}templates/{TPL_NAME}/css/color.css?ver={VERSION}">
     <script src="{SITE_URL}templates/{TPL_NAME}/js/jquery.min.js"></script>
     IF("{LANGUAGE_DIRECTION}"=="rtl"){
