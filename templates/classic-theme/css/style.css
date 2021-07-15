@@ -796,7 +796,7 @@ span.bookmark-icon {font-size: 20px;position: absolute;z-index: 101;right: 35px;
 .numbered.color.filled ol > li::before {border: 1px solid #66676b;color: #fff;background-color: #66676b }
 mark {background-color: #fcf8e3;color: #8a803e;padding: 1px 5px }
 mark.color {background-color: #66676b;border-radius: 4px;color: #fff }
-#result .success, .notification {line-height: 24px;margin-bottom: 15px;position: relative;padding: 20px 26px;padding-right: 50px;border-radius: 3px; display: }
+#result .success, .notification {line-height: 24px;margin-bottom: 15px;position: relative;padding: 20px 26px;padding-right: 50px;border-radius: 3px; display:noe}
 .notification p {margin: 0;font-size: 15px }
 #result .success, .notification.success {background-color: #ebf6e0 }
 #result .success, .notification.success, .notification.success a, .notification.success strong {color: #5f9025 }
