@@ -146,7 +146,7 @@ IF({TESTIMONIALS_ENABLE} && {SHOW_TESTIMONIALS_HOME}){
 
             <div class="col-xl-12">
                 <form name="form1" method="post" action="{LINK_MEMBERSHIP}/changeplan">
-                <div class="billing-cycle-radios margin-bottom-70">
+                <!--<div class="billing-cycle-radios margin-bottom-70">
                     IF("{TOTAL_MONTHLY}"!="0"){
                     <div class="radio billed-monthly-radio">
                         <input id="radio-monthly" name="billed-type" type="radio" value="monthly" checked="">
@@ -165,7 +165,7 @@ IF({TESTIMONIALS_ENABLE} && {SHOW_TESTIMONIALS_HOME}){
                         <label for="radio-lifetime"><span class="radio-label"></span> {LANG_LIFETIME}</label>
                     </div>
                     {:IF}
-                </div>
+                </div>-->
                 <!-- Pricing Plans Container -->
                 <div class="pricing-plans-container">
                     {LOOP: SUB_TYPES}
