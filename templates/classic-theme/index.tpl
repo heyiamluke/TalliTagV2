@@ -83,12 +83,12 @@
             <p class="sub-text">{LANG_CONTACTLESS_DIGITAL_CARDS_DESC}</p>
         </div>
     </div>
-    <div class="flex-container w-container margin-bottom-0">
+   <!-- <div class="flex-container w-container margin-bottom-0">
         <div class="feature-text"><h2><strong>{LANG_SHARE_YOUR_CARD}</strong></h2>
             <p class="sub-text">{LANG_SHARE_YOUR_CARD_DESC}</p>
         </div>
         <div class="feature-image-mask"><img src="{SITE_URL}templates/{TPL_NAME}/images/feature-2.webp" alt="{LANG_SHARE_YOUR_CARD}" class="feature-image"></div>
-    </div>
+    </div>-->
 </div>
 <!-- Section Feature End-->
 
