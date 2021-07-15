@@ -4,7 +4,7 @@
     <title>IF("{PAGE_TITLE}"!=""){ {PAGE_TITLE} - {:IF}{SITE_TITLE}</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="{SITE_TITLE}">
     <meta name="keywords" content="{PAGE_META_KEYWORDS}">
     <meta name="description" content="{PAGE_META_DESCRIPTION}">
