@@ -118,6 +118,5 @@ if($match) {
 }
 else {
 	
-   http_response_code(404);
    require APPPATH.'404.php';
 }

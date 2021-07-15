@@ -12,4 +12,7 @@ require_once('includes/seo-url.php');
 
 sec_session_start();
 
+http_response_code(404);
+
+
 error($lang['PAGE_NOT_FOUND'], __LINE__, __FILE__, 1);
