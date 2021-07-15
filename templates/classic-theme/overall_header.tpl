@@ -49,7 +49,14 @@
     <style>
         :root{{LOOP: COLORS}--theme-color-{COLORS.id}: {COLORS.value};{/LOOP: COLORS}}
     </style>
-    <link rel="stylesheet" href="{SITE_URL}includes/assets/css/icons.css">
+    <!--<link rel="stylesheet" href="{SITE_URL}includes/assets/css/icons.css">-->
+
+    <!-- Deferred loading non-critical CSS -->
+    <link rel="stylesheet" href="{SITE_URL}includes/assets/css/icons.css" media="print" onload="this.media='all';this.onload=null;" />
+    <noscript><link rel="stylesheet" href="{SITE_URL}includes/assets/css/icons.css" ></noscript>
+
+
+
     <link rel="stylesheet" href="{SITE_URL}templates/{TPL_NAME}/css/color-picker.min.css?ver={VERSION}">
     <link rel="stylesheet" href="{SITE_URL}templates/{TPL_NAME}/css/style.css?ver={VERSION}">
     <link rel="stylesheet" href="{SITE_URL}templates/{TPL_NAME}/css/color.css?ver={VERSION}">
