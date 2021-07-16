@@ -6,7 +6,7 @@
         <div class="row">
             <div class="col-md-12">
 
-                <h2>{LANG_REGISTER}</h2>
+                <h1>{LANG_REGISTER}</h1>
 
                 <!-- Breadcrumbs -->
                 <nav id="breadcrumbs" class="dark">

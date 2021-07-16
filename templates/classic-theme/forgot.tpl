@@ -3,7 +3,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h2>{LANG_CHANGE-PASS}</h2>
+                <h1>{LANG_CHANGE-PASS}</h1>
                 <!-- Breadcrumbs -->
                 <nav id="breadcrumbs">
                     <ul>

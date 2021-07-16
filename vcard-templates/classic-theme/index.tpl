@@ -58,7 +58,7 @@
                             <img src="{SITE_URL}storage/cards/logo/{MAIN_IMAGE}" alt="{TITLE}" class="rounded mb-4 img-thumbnail">
                         </div>
                         <div class="media-body mb-5 text-white">
-                            <h4 class="mt-0 mb-0 text-white">{TITLE}</h4>
+                            <h1 class="mt-0 mb-0 text-white">{TITLE}</h1>
                             <p class="small mb-4 text-white font-italic">{SUB_TITLE}</p>
                         </div>
                     </div>
