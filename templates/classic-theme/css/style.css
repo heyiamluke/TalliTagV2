@@ -4362,6 +4362,7 @@ mark.color {
 }
 .notification.error {
   background-color: #ffe9e9;
+  display: none;
 }
 .notification.error,
 .notification.error a,
