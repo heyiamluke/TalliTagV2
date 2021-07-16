@@ -29,47 +29,47 @@ if($config['xml_latest'] == 1){
     }
 
     echo '<url>
-      <loc>http://tallitag.com/</loc>
+      <loc>https://tallitag.com/</loc>
         <lastmod>2021-07-11T16:34:41+00:00</lastmod>
           <priority>1.00</priority>
           </url>
           <url>
-            <loc>http://tallitag.com/login</loc>
+            <loc>https://tallitag.com/login</loc>
               <lastmod>2021-07-11T16:34:41+00:00</lastmod>
                 <priority>0.80</priority>
                 </url>
                 <url>
-                  <loc>http://tallitag.com/signup</loc>
+                  <loc>https://tallitag.com/signup</loc>
                     <lastmod>2021-07-11T16:34:41+00:00</lastmod>
                       <priority>0.80</priority>
                       </url>
                       <url>
-                        <loc>http://tallitag.com/faq</loc>
+                        <loc>https://tallitag.com/faq</loc>
                           <lastmod>2021-07-11T16:34:41+00:00</lastmod>
                             <priority>0.80</priority>
                             </url>
                             <url>
-                              <loc>http://tallitag.com/feedback</loc>
+                              <loc>https://tallitag.com/feedback</loc>
                                 <lastmod>2021-07-11T16:34:41+00:00</lastmod>
                                   <priority>0.80</priority>
                                   </url>
                                   <url>
-                                    <loc>http://tallitag.com/report</loc>
+                                    <loc>https://tallitag.com/report</loc>
                                       <lastmod>2021-07-11T16:34:41+00:00</lastmod>
                                         <priority>0.80</priority>
                                         </url>
                                         <url>
-                                          <loc>http://tallitag.com/contact</loc>
+                                          <loc>https://tallitag.com/contact</loc>
                                             <lastmod>2021-07-11T16:34:41+00:00</lastmod>
                                               <priority>0.80</priority>
                                               </url>
                                               <url>
-                                                <loc>http://tallitag.com/testimonials</loc>
+                                                <loc>https://tallitag.com/testimonials</loc>
                                                   <lastmod>2021-07-11T16:34:41+00:00</lastmod>
                                                     <priority>0.80</priority>
                                                     </url>
                                                     <url>
-                                                      <loc>http://tallitag.com/login?fstart=1</loc>
+                                                      <loc>https://tallitag.com/login?fstart=1</loc>
                                                         <lastmod>2021-07-11T16:34:41+00:00</lastmod>
                                                           <priority>0.80</priority>
                                                           </url>';
