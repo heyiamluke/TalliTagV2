@@ -24,7 +24,7 @@ if($config['xml_latest'] == 1){
         echo '<url>';
         echo '<loc>' . $url . '</loc>';
         echo '<changefreq>daily</changefreq>';
-        echo '<priority>1</priority>';
+        echo '<priority>1.00</priority>';
         echo '</url>';
     }
 
