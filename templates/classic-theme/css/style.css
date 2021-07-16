@@ -4344,7 +4344,7 @@ mark.color {
   padding: 20px 26px;
   padding-right: 50px;
   border-radius: 3px;
-  display: noe;
+  display: none;
 }
 .notification p {
   margin: 0;
