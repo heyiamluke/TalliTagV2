@@ -6717,7 +6717,7 @@ input:checked + .switch-button:before {
   transform: scale(0.8);
 }
 .testimonial-box:before {
-  content: "\e948";
+  content: "\e244";
   font-family: material-icons;
   position: absolute;
   top: -35px;
