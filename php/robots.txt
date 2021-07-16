@@ -1,2 +1,3 @@
-Sitemap: https://www.tallitag.com/sitemap.xml
 User-Agent: *
+Sitemap: https://www.tallitag.com/sitemap.xml
+Host: www.tallitag.com
