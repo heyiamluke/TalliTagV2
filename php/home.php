@@ -103,7 +103,7 @@ if($plan['status']){
     }
 }
 
-$plan = json_decode(get_option('trial_membership_plan'), true);
+/*$plan = json_decode(get_option('trial_membership_plan'), true);
 if($plan['status']){
     if($plan['id'] == $sub_info['id']) {
         $sub_types[$plan['id']]['Selected'] = 1;
@@ -136,7 +136,7 @@ if($plan['status']){
             }
         }
     }
-}
+}*/
 
 $total_monthly = $total_annual = $total_lifetime = 0;
 
