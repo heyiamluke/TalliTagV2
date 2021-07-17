@@ -40,6 +40,16 @@
     <link rel="stylesheet" href="{SITE_URL}vcard-templates/classic-theme/css/style.css?ver={VERSION}">
 
     <script src="{SITE_URL}templates/{TPL_NAME}/js/jquery.min.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QJ12XYX808"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+            gtag('config', 'G-QJ12XYX808');
+    </script>
 </head>
 <body class="{LANGUAGE_DIRECTION}">
 <!--[if lt IE 8]>
