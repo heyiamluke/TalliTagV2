@@ -260,10 +260,6 @@ IF(!{LOGGED_IN}){
     });
     
 </script>
-<script>
-  $(window).on('load', function () {
-    $('#loading').hide();
-  }) 
-</script>
+
 </body>
 </html>
