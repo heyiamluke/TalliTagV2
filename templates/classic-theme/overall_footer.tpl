@@ -257,6 +257,12 @@ IF(!{LOGGED_IN}){
             $('#selected_lang').html(res);
         }
     });
+    
+</script>
+<script>
+  $(window).load(function() {
+    $('#loading').hide();
+  });
 </script>
 </body>
 </html>
