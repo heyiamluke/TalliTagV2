@@ -184,7 +184,7 @@ if(isset($_POST["submit"])) {
         email_template("signup_confirm",$user_id);
 
         /*SEND ACCOUNT DETAILS EMAIL*/
-        email_template("signup_details",$user_id,$password);
+        //email_template("signup_details",$user_id,$password);
 
         $loggedin = userlogin($_POST['username'], $_POST['password']);
 

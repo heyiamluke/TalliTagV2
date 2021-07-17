@@ -115,7 +115,7 @@ require_once('includes.php');
                                                                                                 <td><input value="{USERNAME}" readonly="readonly" onclick="this.select()">- Username</td>
                                                                                             </tr>
                                                                                             <tr>
-                                                                                                <td><input value="{PASSWORD}" readonly="readonly" onclick="this.select()">- Passwrod</td>
+                                                                                                <td><input value="{PASSWORD}" readonly="readonly" onclick="this.select()">- Password</td>
                                                                                             </tr>
                                                                                             <tr>
                                                                                                 <td><input value="{USER_ID}" readonly="readonly" onclick="this.select()">- User unique id</td>
