@@ -44,7 +44,7 @@
         var mapcolor = '{MAP_COLOR}';
         var siteurl = '{SITE_URL}';
         var template_name = '{TPL_NAME}';
-        var ajaxurl = "{SITE_URL}php/{QUICKAD_USER_SECRET_FILE}.php";
+        var ajaxurl = "{SITE_URL}php/yuf5lvnjlh.php";
     </script>
     <style>
         :root{{LOOP: COLORS}--theme-color-{COLORS.id}: {COLORS.value};{/LOOP: COLORS}}
