@@ -165,7 +165,7 @@ foreach ($rows as $plan)
     $sub_types[$plan['id']]['lifetime_price'] = price_format($plan['lifetime_price'],$config['currency_code']);
 
     $settings = json_decode($plan['settings'], true);
-    $sub_types[$plan['id']]['category_limit'] = ($settings['category_limit'] == "999")? $lang['UNLIMITED']: $settings['category_limit'];
+   // $sub_types[$plan['id']]['category_limit'] = ($settings['category_limit'] == "999")? $lang['UNLIMITED']: $settings['category_limit'];
     $sub_types[$plan['id']]['field_limit'] = ($settings['field_limit'] == "999")? $lang['UNLIMITED']: $settings['field_limit'];
     $sub_types[$plan['id']]['scan_limit'] = ($settings['scan_limit'] == "999")? $lang['UNLIMITED']: $settings['scan_limit'];
     $sub_types[$plan['id']]['hide_branding'] = $settings['hide_branding'];
