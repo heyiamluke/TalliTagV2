@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-xl-5 col-lg-5 col-md-12">
                     <div class="footer-logo margin-bottom-10">
-                        <img src="{SITE_URL}storage/logo/{SITE_LOGO_FOOTER}" alt="Tali Tag Logo">
+                        <img data-src="{SITE_URL}storage/logo/{SITE_LOGO_FOOTER}" alt="Tali Tag Logo" class="lazyload">
                     </div>
                     <p>{FOOTER_TEXT}</p>
                 </div>
@@ -235,6 +235,7 @@ IF(!{LOGGED_IN}){
 <script src="{SITE_URL}templates/{TPL_NAME}/js/jquery.cookie.min.js?ver={VERSION}"></script>
 <script src="{SITE_URL}templates/{TPL_NAME}/js/user-ajax.js?ver={VERSION}"></script>
 <script src="{SITE_URL}templates/{TPL_NAME}/js/custom.js?ver={VERSION}"></script>
+<script src="{SITE_URL}templates/{TPL_NAME}/js/lazysizes.min.js" async></script>
 
 <script>
     /* THIS PORTION OF CODE IS ONLY EXECUTED WHEN THE USER THE LANGUAGE(CLIENT-SIDE) */
